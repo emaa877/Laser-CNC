@@ -36,7 +36,7 @@ El objetivo principal fue replicar y adaptar una arquitectura CNC de bajo costo,
 
 El sistema CNC interpreta instrucciones en **G-code**, generadas a partir de diseños CAD/CAM, para controlar el movimiento del cabezal láser sobre la pieza. 
 
-El láser concentra energía en un punto focal muy pequeño, permitiendo **fundir, quemar o vaporizar material** de forma precisa.
+El láser concentra energía en un punto focal muy pequeño, permitiendo **fundir o quemar** de forma precisa.
 
 El proceso general es:
 
@@ -50,9 +50,9 @@ El proceso general es:
 
 ## Hardware Utilizado
 
-- **Microcontrolador:** Arduino Uno / Nano  
+- **Microcontrolador:** Arduino Uno   
 - **Firmware:** GRBL  
-- **Drivers:** A4988 o DRV8825  
+- **Drivers:** DRV8825  
 - **Motores:** NEMA 17 (paso a paso)  
 - **Estructura:**
   - Perfiles de aluminio
@@ -60,7 +60,7 @@ El proceso general es:
 - **Sistema de movimiento:**
   - Varillas lisas + rodamientos lineales o ruedas V-slot  
   - Husillos o correas GT2  
-- **Módulo láser:** Diodo (típicamente 2W–10W)
+- **Módulo láser:** Diodo (2W)
 
 ---
 
