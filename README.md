@@ -34,9 +34,9 @@ El objetivo principal fue replicar y adaptar una arquitectura CNC de bajo costo,
 
 ## Principio de Funcionamiento
 
-El sistema CNC interpreta instrucciones en **G-code**, generadas a partir de diseños CAD/CAM, para controlar el movimiento del cabezal láser sobre la pieza. :contentReference[oaicite:2]{index=2}  
+El sistema CNC interpreta instrucciones en **G-code**, generadas a partir de diseños CAD/CAM, para controlar el movimiento del cabezal láser sobre la pieza. 
 
-El láser concentra energía en un punto focal muy pequeño, permitiendo **fundir, quemar o vaporizar material** de forma precisa. :contentReference[oaicite:3]{index=3}  
+El láser concentra energía en un punto focal muy pequeño, permitiendo **fundir, quemar o vaporizar material** de forma precisa.
 
 El proceso general es:
 
